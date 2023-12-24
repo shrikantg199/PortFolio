@@ -37,7 +37,7 @@ const Hero = () => {
               About Me
             </Button>
           </Link>
-          <Link to="#addresumelink" target="_blank">
+          <Link to="https://drive.google.com/file/d/1MRh3gOHNifyoATrYpG5BoZG5wQtl4co7/view?usp=sharing" target="_blank">
             <Button
               variant="gradient"
               color="light-blue"
