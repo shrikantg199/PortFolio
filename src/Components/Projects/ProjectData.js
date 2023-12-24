@@ -8,14 +8,14 @@ export const MernProjectData = [
     title: "Disney web App",
     techstack: "React,Tailwind CSS,API",
     live: "add live link(verceel,netlify)",
-    github: "add github link",
+    github: "https://github.com/shrikantg199/Disney_app_clone.git",
   },
   {
     img: chatRoom,
     title: "Real-Time Chat room web App.",
     techstack: "Reactjs, firebase, tailwind CSS.",
     live: "add live link(verceel,netlify)",
-    github: "add github link",
+    github: "https://github.com/shrikantg199/ChatRoom-.git",
   },
   {
     img: Portfolio,
