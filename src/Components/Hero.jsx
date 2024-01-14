@@ -42,7 +42,7 @@ const Hero = () => {
           <b>JavaScript, React, Node.js & MongoDB🧑🏻‍💻.</b>
           <br />
           <br />
-          Seeking Entry-level <b>Full Stack Developer Role</b> to apply strong{" "}
+          Seeking Entry-level <b>Full Stack web Developer Role</b> to apply strong{" "}
           <b>programming skills</b> and contribute to innovative software
           solutions.🧑🏻‍💻💻
         </p>
