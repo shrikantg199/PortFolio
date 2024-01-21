@@ -17,15 +17,15 @@ const Hero = () => {
     return () => clearTimeout(intervalId);
   }, []);
   return (
-    <div className="py-16 min-h-[80vh] md:min-h-[85vh] flex items-center flex-col-reverse lg:flex-row gap-4 justify-center">
-      <div className="ml-3 flex flex-col gap-4 mx-6 font-serif text-left md:gap-6 2xl:w-1/3 xl:mx-0 ">
+    <div className="ml-1   py-16 min-h-[80vh] md:min-h-[85vh] flex items-center flex-col-reverse lg:flex-row gap-4 justify-center md:flex-row md:w-auto">
+      <div className="flex flex-col gap-4 font-serif text-left md:gap-6 2xl:w-1/3 xl:mx-0 ">
         <p className="text-3xl font-bold text-light-blue-500">Hey,</p>
         <p className="relative font-bold md:text-5xl">
           I'm
-          <span className="m-2 text-4xl uppercase text-light-blue-500">
+          <span className="m-2 text-3xl uppercase text-light-blue-500">
             Shrikant
           </span>
-          <span className="m-2 text-4xl uppercase text-light-blue-500">
+          <span className="m-2 text-3xl uppercase text-light-blue-500">
             Gaikwad
           </span>
         </p>
@@ -36,13 +36,13 @@ const Hero = () => {
             </TextTransition>
           </h1>
         </p>
-        <p className="relative text-base font-medium md:text-xl">
+        <p className="relative mt-3 text-base font-medium md:text-xl">
           Enthusiastic Electronics & Communication with hands-on experience
           Building Responsive web Applications using{" "}
           <b>JavaScript, React, Node.js & MongoDB🧑🏻‍💻.</b>
           <br />
           <br />
-          Seeking Entry-level <b>Full Stack web Developer Role</b> to apply strong{" "}
+          Seeking Entry-level <b>Full Stack Developer Role</b> to apply strong{" "}
           <b>programming skills</b> and contribute to innovative software
           solutions.🧑🏻‍💻💻
         </p>
@@ -74,7 +74,7 @@ const Hero = () => {
         <img
           src={photo}
           alt="Shrikant Gaikwad"
-          className="object-cover object-center ml-20 rounded-full cursor-pointer w-52 h-52 md:w-72 md:h-72 hover:shadow-lg"
+          className="object-cover object-center ml-20 rounded-full cursor-pointer w-52 h-52 md:w-72 md:h-72 hover:shadow-lg md:flex md:items-center"
         />
       </div>
     </div>
